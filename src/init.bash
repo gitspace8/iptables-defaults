@@ -18,3 +18,6 @@ sudo cat /proc/sys/net/ipv4/ip_forward
 # locale
 sudo dpkg-reconfigure locales
 sudo localectl set-locale LANG=ru_RU.utf8
+
+# postgress
+ALTER USER postgres PASSWORD 'myPassword';
